@@ -39,7 +39,7 @@ const Footer = () => {
                     <img src={img} className='w-18' alt="logo" />
                     <p>© 2025 Udemy, Inc.</p>
                 </div>
-                <p>Cookie Setting</p>
+                <p className='lg:block hidden'>Cookie Setting</p>
                 <div className='flex gap-3 items-center'>
                     <img src={img1} className='w-[20px] h-[20px] bg-white' alt="world" />
                     <p>English</p>

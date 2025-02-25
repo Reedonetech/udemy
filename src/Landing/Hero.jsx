@@ -6,10 +6,10 @@ import udm from '../assets/udm.png'
 const Hero = () => {
   return (
     <div 
-    className=' flex flex-col items-center lg:items-start'
+    className=' flex flex-col items-center lg:items-start  lg:h-[63vh]'
     >
-      <div className='flex items-center justify-center'>
-            <img src={image4} className='lg:w-full lg:h-[65vh] h-[50vh] w-[90%] lg:flex hidden' alt="" />
+      <div className='flex items-center justify-center w-full'>
+            <img src={image4} className='lg:w-full w-full lg:flex hidden' alt="" />
             <img src={udm} className='   w-[90%] lg:hidden flex' alt="" />
         </div>
         <div className='lg:relative lg:bottom-[350px] lg:left-[50px] lg:shadow-2xl lg:w-[35vw] lg:h-[30vh] p-10'>

@@ -3,7 +3,7 @@ import image4 from '../assets/download.jpeg'
 const Herobody = () => {
     return (
         <div>
-        <div className='lg:flex flex-col lg:px-10 px-[20px] lg:gap-2'>
+    <div className='lg:flex flex-col pt-[2%] lg:px-10 px-[20px] lg:gap-2 '>
             <h1 className='lg:text-[30px] font-black'>All the skills you need in one place</h1>
             <p>From critical skills to technical topics, Udemy supports your professional development.</p>
             <div className='flex flex-wrap gap-10 pt-5 border-b-1 pb-3'>
@@ -27,7 +27,7 @@ const Herobody = () => {
                     <p>Python</p>
                     <p>47.7M+ Learners</p>
                 </div>
-                <div className='w-[155px] flex flex-col h-[50px] bg-blue-700 rounded items-center text-center px-1 hover:text-red-600'>
+                <div className='w-[150px] flex flex-col h-[50px] bg-blue-700 rounded items-center text-center px-1 hover:text-red-600'>
                     <p>Machine Learning</p>
                     <p>8M+ Learners</p>
                 </div>
@@ -35,7 +35,7 @@ const Herobody = () => {
                     <p>Deep Learning</p>
                     <p>2M+ Learners</p>
                 </div>
-                <div className='lg:w-[200px] w-[175px] flex flex-col lg:h-[50px] h-[75px] bg-blue-700 rounded items-center text-center px-1 hover:text-red-600'>
+                <div className='lg:w-[200px] w-[150px] flex flex-col lg:h-[50px] h-[75px] bg-blue-700 rounded items-center text-center px-1 hover:text-red-600'>
                     <p>Artificial Intelligence(AI)</p>
                     <p>3M+ Learners</p>
                 </div>
