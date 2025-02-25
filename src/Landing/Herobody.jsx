@@ -14,7 +14,7 @@ const Herobody = () => {
                 <p><span  className=' hover:text-sky-900 underline font-bold'>Communication</span></p>
                 <p><span  className=' hover:text-sky-900 underline font-bold'>Business Analystic</span></p>
             </div>
-            <div className='lg:flex grid grid-cols-2 grid-rows-2 pt-5 gap-5 items-center'>
+            <div className='lg:flex grid grid-cols-2 grid-rows-2 pt-5 lg:gap-5 gap-10 items-center lg:justify-start'>
                 <div className='w-[150px] flex flex-col h-[50px] bg-blue-700 rounded items-center text-center px-1 hover:text-red-600'>
                     <p>ChatGPT</p>
                     <p>4M+ Learner</p>

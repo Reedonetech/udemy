@@ -5,8 +5,8 @@ import img1 from '../assets/world-icon-png-6.png'
 const Footer = () => {
   return (
     <div>
-        <div className='flex lg:flex-row flex-col justify-around pr-25  border-b-[1px]  pb-20 bg-gray-700 p-5 text-white'>
-            <div className='flex flex-col px-10'>
+        <div className='flex lg:flex-row flex-col justify-around  border-b-[1px]  pb-20 bg-gray-700 p-5 text-white'>
+            <div className='flex flex-col lg:px-10'>
                 <h1 className=' flex pb-5'>About</h1>
                 <p>About</p>
                 <p>Career</p>
@@ -14,7 +14,7 @@ const Footer = () => {
                 <p>Blog</p>
                 <p>Investors</p>
             </div>
-            <div className='flex flex-col px-10'>
+            <div className='flex flex-col lg:px-10'>
                 <h1 className=' flex pb-5'>Discovery Udemy</h1>
                 <p>Get the App</p>
                 <p>Teach on Udemy</p>
@@ -22,11 +22,11 @@ const Footer = () => {
                 <p>Afiliate</p>
                 <p>Help and Support</p>
             </div>
-            <div className='flex flex-col px-10'>
+            <div className='flex flex-col lg:px-10'>
                 <h1 className=' flex pb-5'>Udemy for Business</h1>
                 <p>Udemy Business</p>
             </div>
-            <div className='flex flex-col px-10'>
+            <div className='flex flex-col lg:px-10'>
                 <h1 className=' flex pb-5'>Legal & Accessibility</h1>
                 <p>Accessibility statement</p>
                 <p>Privacy Policy</p>
